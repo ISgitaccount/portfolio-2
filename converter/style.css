@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.convert {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kinds {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kind {
+    display: flex;
+    flex-direction: column;
+}
+
+.howmuch {
+    font-size: 13px;
+}
+
+.course {
+    font-size: 14px;
+    color: darkgoldenrod;
+}
+
+.volume, select {
+    width: 235px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.to, .submit {
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    border: 1px solid;
+}
+
+.to {
+    text-align: center;
+    line-height: 30px;
+}
+
+.inpsumb {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+input, select {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 0.75px solid black;
+}
+
